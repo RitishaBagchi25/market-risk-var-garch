@@ -22,5 +22,4 @@ Prices come from yfinance and are cached in `data/prices.csv` (used automaticall
 - Backtest: 750-day rolling window, GARCH refit every 20 days, volatility filtered daily in between. Only past data is used for each day's VaR.
 - Pass = Kupiec p > 0.05 and independence p > 0.05.
 
-## Results
-Fill in from your own run (see Section 6 of the notebook). Limits: one portfolio, one window, no transaction costs.
+
